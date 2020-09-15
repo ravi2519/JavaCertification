@@ -39,3 +39,4 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [815 free test trial](https://certify.cybervista.net/products/oracle/java-se-11-programmer-i-ocp-free-trial/)
 - [List of Java Features Added from Java 8 to Java 14](https://ondro.inginea.eu/index.php/new-features-between-java-8-and-java-14/)
 - [Java Quizzes](https://blogs.oracle.com/javamagazine/quiz-2)
+- [More than 6 hours of free training by Oracle Universtity](https://learn.oracle.com/ols/module/overview/40805/79727)
