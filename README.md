@@ -1,2 +1,41 @@
-# JavaCertification
-This is a full resource guide for my attempt to get Java 11 Certified
+# Java 11 Certification
+
+Hi there! So this is a full resource guide for my attempt to get Java 11 Certified.
+
+
+# Old Rules
+
+So i started my journey to get certified in Java 11 to receive **Oracle Certified Professional Java SE 11 Developer** credentials.
+Before October 1, 2020 it was fairly a two step process:
+
+ - [Take a 815 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-815)
+ - [And a 816 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-816)
+
+Both costs approximately **11,300 INR** each and covers different set of syllabus.
+
+You have to purchase the exam voucher from Oracle for each one of these. The voucher will be valid for next 6 months. And during this period you can schedule the exam anytime.
+
+I did that too, but as soon as i was prepared to give 815, THE Oracle changed the game. They were retiring both 815 and 816 in favor of 819.
+
+## New girl in town!!
+
+Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
+[The new 819 exam](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+
+## Few features of this new exam
+- This is a 90 min exam as compared to 180 min ( for 815 and 816 each ).
+- It costs approximately **11,300 INR**, which is good since now you have to shell just half the money! 
+- Covers almost all the topics form 815 and 816 with few exceptions. Checkout [819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819) link for detailed syllabus.
+
+## Courses from Udemy
+
+- [Java Certification (1Z0-815) Topic-wise Tests [2020]](https://www.udemy.com/course/java-11_1z0-815/)
+- [Java Certification (1Z0-815) Exam Simulation [2020]](https://www.udemy.com/course/java-se-11_1z0-815/)
+- [Java SE Programmer II (1Z0-816) - Practice Test](https://www.udemy.com/course/java-se-programmer-ii-1z0-816-practice-test/)
+
+## Helpful resources from Oracle
+
+- [815 and 816 Study Guide and Sample Questions](https://www.oracle.com/a/ocom/img/dc/ww-java11-programmer-study-guide.pdf?intcmp=WWOUCERTBLOGECBYK051720)
+- [815 free test trial](https://certify.cybervista.net/products/oracle/java-se-11-programmer-i-ocp-free-trial/)
+- [List of Java Features Added from Java 8 to Java 14](https://ondro.inginea.eu/index.php/new-features-between-java-8-and-java-14/)
+- [Java Quizzes](https://blogs.oracle.com/javamagazine/quiz-2)
