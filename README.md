@@ -44,3 +44,7 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 ## Github Resources from my fellow wanderes
 
 - [Contains examples and 8008 dumps](https://github.com/springapidev/java-certification)
+- [Java Certification 815](https://github.com/mariazevedo88/java-certification-oca)
+- [808, 809 and older PDF files](https://github.com/MohamedDhiaJemai/Books-to-Prepare-Oracle-Java-Certification-Exams)
+- [OCA and OCP/808 and 809](https://github.com/egenerat/java-8-certification)
+- [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
