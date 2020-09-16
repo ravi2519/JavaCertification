@@ -48,3 +48,8 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [808, 809 and older PDF files](https://github.com/MohamedDhiaJemai/Books-to-Prepare-Oracle-Java-Certification-Exams)
 - [OCA and OCP/808 and 809](https://github.com/egenerat/java-8-certification)
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
+
+## Important Topics
+- [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
+- [Stream Tutorial](https://www.baeldung.com/java-8-streams)
+
