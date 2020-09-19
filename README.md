@@ -33,6 +33,9 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Java Certification (1Z0-815) Exam Simulation [2020]](https://www.udemy.com/course/java-se-11_1z0-815/)
 - [Java SE Programmer II (1Z0-816) - Practice Test](https://www.udemy.com/course/java-se-programmer-ii-1z0-816-practice-test/)
 
+## Courses from Linkedin Learning
+- [Streams, Lambdas, Functional Interfaces](https://www.linkedin.com/learning/functional-programming-with-streams-in-java-9)
+
 ## Helpful resources from Oracle
 
 - [815 and 816 Study Guide and Sample Questions](https://www.oracle.com/a/ocom/img/dc/ww-java11-programmer-study-guide.pdf?intcmp=WWOUCERTBLOGECBYK051720)
