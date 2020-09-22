@@ -1,0 +1,192 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamForEachAdd",
+            "request": "launch",
+            "mainClass": "streams.StreamForEachAdd",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamAllMatch",
+            "request": "launch",
+            "mainClass": "streams.StreamAllMatch",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "streams.Test",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamSorted",
+            "request": "launch",
+            "mainClass": "streams.StreamSorted",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamMap1",
+            "request": "launch",
+            "mainClass": "streams.StreamMap1",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFIlter1",
+            "request": "launch",
+            "mainClass": "streams.StreamFIlter1",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamTraversedOnce",
+            "request": "launch",
+            "mainClass": "streams.StreamTraversedOnce",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamTraversedOnce",
+            "request": "launch",
+            "mainClass": "streams.StreamTraversedOnce",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LazyTests",
+            "request": "launch",
+            "mainClass": "streams.LazyTests",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFromIterate",
+            "request": "launch",
+            "mainClass": "streams.StreamFromIterate",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFromSupplier",
+            "request": "launch",
+            "mainClass": "streams.StreamFromSupplier",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFromCollection",
+            "request": "launch",
+            "mainClass": "streams.StreamFromCollection",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamsFromArrays",
+            "request": "launch",
+            "mainClass": "streams.StreamsFromArrays",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamOf",
+            "request": "launch",
+            "mainClass": "streams.StreamOf",
+            "projectName": "cert_cd8c963",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamPrintEmployees",
+            "request": "launch",
+            "mainClass": "streams.StreamPrintEmployees",
+            "projectName": "cert_cd8c963",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Interfaces<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "Interfaces",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Lambda1<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "Lambda1",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaExtra<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "LambdaExtra",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaImplementation<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "LambdaImplementation",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LambdaInference<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "LambdaInference",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MethodReferences<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "MethodReferences",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NoLoops<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "NoLoops",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllCollisionsTest<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "collisions.AllCollisionsTest",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountingTest<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "collisions.CountingTest",
+            "projectName": "cert_cd8c963"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GridTest<cert_cd8c963>",
+            "request": "launch",
+            "mainClass": "collisions.GridTest",
+            "projectName": "cert_cd8c963"
+        }
+    ]
+}
