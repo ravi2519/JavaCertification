@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StreamIfPresentOrElse",
+            "request": "launch",
+            "mainClass": "streams.StreamIfPresentOrElse",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamCollectorsToMap",
+            "request": "launch",
+            "mainClass": "streams.StreamCollectorsToMap",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamAveragingDouble",
+            "request": "launch",
+            "mainClass": "streams.StreamAveragingDouble",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFilterDIstinctCount",
+            "request": "launch",
+            "mainClass": "streams.StreamFilterDIstinctCount",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamChainedOperations",
+            "request": "launch",
+            "mainClass": "streams.StreamChainedOperations",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamConcurrentModificationException",
+            "request": "launch",
+            "mainClass": "streams.StreamConcurrentModificationException",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamNoTerminalOperation",
+            "request": "launch",
+            "mainClass": "streams.StreamNoTerminalOperation",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamCollectorsGroupingBy",
+            "request": "launch",
+            "mainClass": "streams.StreamCollectorsGroupingBy",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamReduce",
+            "request": "launch",
+            "mainClass": "streams.StreamReduce",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StreamFindAnyAndFilter",
+            "request": "launch",
+            "mainClass": "streams.StreamFindAnyAndFilter",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StreamForEachAdd",
             "request": "launch",
             "mainClass": "streams.StreamForEachAdd",
