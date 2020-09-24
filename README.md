@@ -56,6 +56,9 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
 
 ## Important Topics
+
+### Streams
 - [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
+- [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
 - [Stream Tutorial](https://www.baeldung.com/java-8-streams)
 
