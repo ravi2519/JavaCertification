@@ -61,4 +61,5 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 - [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
 - [Stream Tutorial](https://www.baeldung.com/java-8-streams)
+- [Processing Data with Java SE 8 Streams](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
 
