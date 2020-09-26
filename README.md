@@ -36,6 +36,9 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 ## Courses from Linkedin Learning
 - [Streams, Lambdas, Functional Interfaces](https://www.linkedin.com/learning/functional-programming-with-streams-in-java-9)
 
+## More mock tests
+- [Enthuware 816 Mock Test](https://sites.fastspring.com/enthuware/product/1z0816)
+
 ## Helpful resources from Oracle
 
 - [815 and 816 Study Guide and Sample Questions](https://www.oracle.com/a/ocom/img/dc/ww-java11-programmer-study-guide.pdf?intcmp=WWOUCERTBLOGECBYK051720)
@@ -53,6 +56,12 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
 
 ## Important Topics
+
+### Stream, Lambdas and Funtional Interfaces 
 - [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
+- [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
 - [Stream Tutorial](https://www.baeldung.com/java-8-streams)
+- [Processing Data with Java SE 8 Streams](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
+- [Method detail of Object class](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
+  This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
 
