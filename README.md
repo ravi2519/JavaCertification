@@ -64,6 +64,9 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Processing Data with Java SE 8 Streams](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
 - [Method detail of Object class](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
   This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
+  
+### Secure Coding in Java SE Application
+- [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
 
 ## OCP 819 Reviews
 - [Enthuware](https://enthuware.com/oca-ocp-java-certification-resources/255-java-certification-819-experience)
