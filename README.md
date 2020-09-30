@@ -27,6 +27,20 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - It costs approximately **11,300 INR**, which is good since now you have to shell just half the money! 
 - Covers almost all the topics form 815 and 816 with few exceptions. Checkout [819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819) link for detailed syllabus.
 
+## Important Topics
+
+### Stream, Lambdas and Funtional Interfaces 
+- [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
+- [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
+- [Stream Tutorial](https://www.baeldung.com/java-8-streams)
+- [Processing Data with Java SE 8 Streams](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
+- [Method detail of Object class](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
+  This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
+  
+### Secure Coding in Java SE Application
+- [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
+
+
 ## Courses from Udemy
 
 - [Java Certification (1Z0-815) Topic-wise Tests [2020]](https://www.udemy.com/course/java-11_1z0-815/)
@@ -55,13 +69,6 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [OCA and OCP/808 and 809](https://github.com/egenerat/java-8-certification)
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
 
-## Important Topics
-
-### Stream, Lambdas and Funtional Interfaces 
-- [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
-- [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
-- [Stream Tutorial](https://www.baeldung.com/java-8-streams)
-- [Processing Data with Java SE 8 Streams](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html)
-- [Method detail of Object class](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
-  This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
-
+## OCP 819 Reviews
+- [Enthuware](https://enthuware.com/oca-ocp-java-certification-resources/255-java-certification-819-experience)
+- [Jeanne Boysky](https://www.selikoff.net/2020/09/26/jeannes-experience-taking-the-1z0-819-in-the-time-of-covid-19/)
