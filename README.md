@@ -27,9 +27,9 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - It costs approximately **11,300 INR**, which is good since now you have to shell just half the money! 
 - Covers almost all the topics form 815 and 816 with few exceptions. Checkout [819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819) link for detailed syllabus.
 
-## Important Topics
+# Important Topics
 
-### Stream, Lambdas and Funtional Interfaces 
+## Stream, Lambdas and Funtional Interfaces 
 - [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 - [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
 - [Stream Tutorial](https://www.baeldung.com/java-8-streams)
@@ -37,23 +37,23 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Method detail of Object class](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
   This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
   
-### Secure Coding in Java SE Application
+## Secure Coding in Java SE Application
 - [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
 
 
-## Courses from Udemy
+# Courses from Udemy
 
 - [Java Certification (1Z0-815) Topic-wise Tests [2020]](https://www.udemy.com/course/java-11_1z0-815/)
 - [Java Certification (1Z0-815) Exam Simulation [2020]](https://www.udemy.com/course/java-se-11_1z0-815/)
 - [Java SE Programmer II (1Z0-816) - Practice Test](https://www.udemy.com/course/java-se-programmer-ii-1z0-816-practice-test/)
 
-## Courses from Linkedin Learning
+# Courses from Linkedin Learning
 - [Streams, Lambdas, Functional Interfaces](https://www.linkedin.com/learning/functional-programming-with-streams-in-java-9)
 
-## More mock tests
+# More mock tests
 - [Enthuware 816 Mock Test](https://sites.fastspring.com/enthuware/product/1z0816)
 
-## Helpful resources from Oracle
+# Helpful resources from Oracle
 
 - [815 and 816 Study Guide and Sample Questions](https://www.oracle.com/a/ocom/img/dc/ww-java11-programmer-study-guide.pdf?intcmp=WWOUCERTBLOGECBYK051720)
 - [815 free test trial](https://certify.cybervista.net/products/oracle/java-se-11-programmer-i-ocp-free-trial/)
@@ -61,7 +61,7 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Java Quizzes](https://blogs.oracle.com/javamagazine/quiz-2)
 - [More than 6 hours of free training by Oracle Universtity](https://learn.oracle.com/ols/module/overview/40805/79727)
 
-## Github Resources from my fellow wanderes
+# Github Resources from my fellow wanderes
 
 - [Contains examples and 8008 dumps](https://github.com/springapidev/java-certification)
 - [Java Certification 815](https://github.com/mariazevedo88/java-certification-oca)
@@ -69,6 +69,10 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [OCA and OCP/808 and 809](https://github.com/egenerat/java-8-certification)
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
 
-## OCP 819 Reviews
+# OCP 819 Reviews
 - [Enthuware](https://enthuware.com/oca-ocp-java-certification-resources/255-java-certification-819-experience)
 - [Jeanne Boysky](https://www.selikoff.net/2020/09/26/jeannes-experience-taking-the-1z0-819-in-the-time-of-covid-19/)
+
+# Coderanch
+- [OCJCP Page](https://coderanch.com/f/24/java-programmer-OCPJP)
+- [OCJCP Wall Of Fame](https://coderanch.com/f/24/java-programmer-OCPJP)
