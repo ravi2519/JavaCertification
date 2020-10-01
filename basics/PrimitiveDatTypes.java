@@ -136,6 +136,15 @@ public class PrimitiveDatTypes {
 
         // instance long defaults to 0L
         System.out.println(new PrimitiveDatTypes().instLg);
+
+        // 16.
+        // a number with a decimal is always of type double.
+        // we we assign such a decimal number to float then we
+        // need to suffix that number with 'f/F'.
+        // (Type mismatch: cannot convert from double to float)
+        // float f2 = 2.1;
+        // valid statement
+        float f2 = 2.1F;
     }
     
 }

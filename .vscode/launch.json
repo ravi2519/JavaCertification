@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaOperators",
+            "request": "launch",
+            "mainClass": "basics.JavaOperators",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PrimitiveDatTypes",
             "request": "launch",
             "mainClass": "basics.PrimitiveDatTypes",
