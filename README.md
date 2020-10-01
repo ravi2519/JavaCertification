@@ -8,8 +8,8 @@ Hi there! So this is a full resource guide for my attempt to get Java 11 Certifi
 So i started my journey to get certified in Java 11 to receive **Oracle Certified Professional Java SE 11 Developer** credentials.
 Before October 1, 2020 it was fairly a two step process:
 
- - [Take a 815 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-815)
- - [And a 816 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-816)
+ - [Take a 815 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-815) Post Oct 1, 2020 it's showing a 404
+ - [And a 816 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-816) Post Oct 1, 2020 it's showing a 404
 
 Both costs approximately **11,300 INR** each and covers different set of syllabus.
 
