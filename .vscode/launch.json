@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PrimitiveDatTypes",
+            "request": "launch",
+            "mainClass": "basics.PrimitiveDatTypes",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "basics.Main",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StreamIfPresentOrElse",
             "request": "launch",
             "mainClass": "streams.StreamIfPresentOrElse",

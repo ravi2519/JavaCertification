@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
  
 public class Main {
-    public static void main(String[] args) {
+    public final static void main(String[] args) {
         List<String> list = new ArrayList<>(4);
         list.add(0, "MOVE");
         list.add(2, "ON");
