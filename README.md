@@ -75,4 +75,4 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 
 # Coderanch
 - [OCJCP Page](https://coderanch.com/f/24/java-programmer-OCPJP)
-- [OCJCP Wall Of Fame](https://coderanch.com/f/24/java-programmer-OCPJP)
+- [OCJCP Wall Of Fame](https://coderanch.com/wiki/659976/OCPJP-Wall-Fame)
