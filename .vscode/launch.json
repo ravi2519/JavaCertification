@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaArray",
+            "request": "launch",
+            "mainClass": "basics.JavaArray",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaString",
+            "request": "launch",
+            "mainClass": "basics.JavaString",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Loops",
             "request": "launch",
             "mainClass": "basics.Loops",
