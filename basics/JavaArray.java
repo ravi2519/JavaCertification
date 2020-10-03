@@ -1,6 +1,7 @@
 package basics;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class JavaArray {
@@ -57,8 +58,31 @@ public class JavaArray {
         birds.add(1, "blue jay");
         birds.add(3, "cardinal");
         // throws runtime error
-        birds.add(8, "cardinal");
+        //birds.add(8, "cardinal");
         System.out.println(birds);
+
+        // 5.
+        // Array to List using Arrays.asList create a fixed size backed list
+        // any changes made to array or list will be reflected at both the places
+        // If we try to remove the element from the array or the List then 
+        // UnsupportedOperationException will be thrown.
+        String[] array = { "hawk", "robin" };
+        List<String> lst = Arrays.asList(array);
+        lst.set(0, "blue jay");
+        System.out.println(lst);
+        array[1] = "new";
+        System.out.println(lst);
+        // lst.remove(1); // UnsupportedOperationException
+
+        // 6.
+        // Creating immutable List using List.of(arr)
+        // We cannot change the size or the elements in such alist
+        List<String> immlst = List.of(array);
+        System.out.println(immlst);
+        array[0] = "Test";
+        System.out.println(Arrays.toString(array));
+        // immlst.set(0, "Change"); // UnsupportedOperationException
+        // immlst.remove(1);  // UnsupportedOperationException
 
     }
 }
