@@ -1,6 +1,7 @@
 package basics;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class JavaArray {
     
@@ -39,7 +40,25 @@ public class JavaArray {
             System.out.println( ele );
         }
 
+        // 3. 
+        // If no generics are provided in the arraylist, then
+        // we can add any type of object into it.
+        /// Just the primitives are not allowed.
+        ArrayList arrlst = new ArrayList<>();
+        arrlst.add("Value");
+        arrlst.add(Boolean.TRUE);
+        System.out.println(arrlst);
 
+        // 4.
+        // we can't add to a list far into the index sequence
+        List<String> birds = new ArrayList<String>();
+        birds.add("hawk");
+        birds.add(1, "robin");
+        birds.add(1, "blue jay");
+        birds.add(3, "cardinal");
+        // throws runtime error
+        birds.add(8, "cardinal");
+        System.out.println(birds);
 
     }
 }
