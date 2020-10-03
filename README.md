@@ -30,6 +30,7 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 # Important Topics
 
 ## Stream, Lambdas and Funtional Interfaces 
+- [Streams, Lambdas, Functional Interfaces](https://www.linkedin.com/learning/functional-programming-with-streams-in-java-9)
 - [Stream API Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
 - [Stream Operations](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#StreamOps)
 - [Stream Tutorial](https://www.baeldung.com/java-8-streams)
@@ -41,23 +42,17 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
 
 
-# Courses from Udemy
-
+# Mock Tests
+- [Enthuware 819 Mock Test](https://enthuware.com/java-certification-mock-exams/oracle-certified-professional/ocp-java-11-exam-1z0-819)
+- [Enthuware 816 Mock Test](https://sites.fastspring.com/enthuware/product/1z0816)
 - [Java Certification (1Z0-815) Topic-wise Tests [2020]](https://www.udemy.com/course/java-11_1z0-815/)
 - [Java Certification (1Z0-815) Exam Simulation [2020]](https://www.udemy.com/course/java-se-11_1z0-815/)
 - [Java SE Programmer II (1Z0-816) - Practice Test](https://www.udemy.com/course/java-se-programmer-ii-1z0-816-practice-test/)
-
-# Courses from Linkedin Learning
-- [Streams, Lambdas, Functional Interfaces](https://www.linkedin.com/learning/functional-programming-with-streams-in-java-9)
-
-# More mock tests
-- [Enthuware 819 Mock Test](https://enthuware.com/java-certification-mock-exams/oracle-certified-professional/ocp-java-11-exam-1z0-819)
-- [Enthuware 816 Mock Test](https://sites.fastspring.com/enthuware/product/1z0816)
+- [815 free test trial](https://certify.cybervista.net/products/oracle/java-se-11-programmer-i-ocp-free-trial/)
 
 # Helpful resources from Oracle
 
 - [815 and 816 Study Guide and Sample Questions](https://www.oracle.com/a/ocom/img/dc/ww-java11-programmer-study-guide.pdf?intcmp=WWOUCERTBLOGECBYK051720)
-- [815 free test trial](https://certify.cybervista.net/products/oracle/java-se-11-programmer-i-ocp-free-trial/)
 - [List of Java Features Added from Java 8 to Java 14](https://ondro.inginea.eu/index.php/new-features-between-java-8-and-java-14/)
 - [Java Quizzes](https://blogs.oracle.com/javamagazine/quiz-2)
 - [More than 6 hours of free training by Oracle Universtity](https://learn.oracle.com/ols/module/overview/40805/79727)
