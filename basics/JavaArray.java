@@ -2,6 +2,7 @@ package basics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class JavaArray {
@@ -83,6 +84,15 @@ public class JavaArray {
         System.out.println(Arrays.toString(array));
         // immlst.set(0, "Change"); // UnsupportedOperationException
         // immlst.remove(1);  // UnsupportedOperationException
+
+        // 7.
+        // binarySearch
+        List<String> hex = Arrays.asList("30", "8", "3A", "FF");
+        Collections.sort(hex);
+        int x = Collections.binarySearch(hex, "8");
+        int y = Collections.binarySearch(hex, "3A");
+        int z = Collections.binarySearch(hex, "4F");
+        System.out.println(x + " " + y + " " + z); // 2 1 -3
 
     }
 }

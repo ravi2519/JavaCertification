@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaMethodOverloading",
+            "request": "launch",
+            "mainClass": "basics.JavaMethodOverloading",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaStatic",
+            "request": "launch",
+            "mainClass": "basics.JavaStatic",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WrapperClasses",
             "request": "launch",
             "mainClass": "basics.WrapperClasses",
