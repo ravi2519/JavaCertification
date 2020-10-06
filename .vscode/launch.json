@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaInitialization",
+            "request": "launch",
+            "mainClass": "basics.JavaInitialization",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaMethodOverloading",
             "request": "launch",
             "mainClass": "basics.JavaMethodOverloading",
