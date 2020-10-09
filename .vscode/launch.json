@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaExceptions",
+            "request": "launch",
+            "mainClass": "basics.JavaExceptions",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaInheritance",
             "request": "launch",
             "mainClass": "basics.JavaInheritance",
