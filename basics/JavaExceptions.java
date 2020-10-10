@@ -63,7 +63,7 @@ public class JavaExceptions {
         // 7.
         // with finally block there can be return statements, but finally 
         // will always be called
-        new JavaExceptions().gotHome();
+        System.out.println(new JavaExceptions().gotHome());
 
         // 8.
         // try with resources can replace finally.
@@ -100,6 +100,18 @@ public class JavaExceptions {
             // UNCOMMENT BELOW CODE
             // sc.nextInt();
         }
+
+        // 12.
+        // If we place try-catch around methods that won't throw checked
+        // exception, a compile time error will be thrown
+        // (Unreachable catch block for IOException. This exception is never thrown from the try statement body)
+        // try{
+        //     new JavaExceptions().gotHome();
+        // } catch ( IOException e ) {
+
+        // }
+
+
     }
 
     public int gotHome() {
