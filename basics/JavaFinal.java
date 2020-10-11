@@ -48,4 +48,9 @@ public class JavaFinal {
     public JavaFinal( int a, int b ) {
         this();
     }
+
+    public static void main(String[] args) {
+        
+        
+    }
 }

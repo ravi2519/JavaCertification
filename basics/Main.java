@@ -14,33 +14,9 @@ public class Main {
     }
 }
 
-// import java.util.ArrayList;
-// import java.util.List;
- 
 // public class Main {
 //     public static void main(String[] args) {
-//         List<String> list = new ArrayList<>();
-//         list.add("P");
-//         list.add("O");
-//         list.add("T");
- 
-//         List<String> subList = list.subList(1, 2); //Line n1
-//         subList.set(0, "E"); //Line n2
-//         System.out.println(String.join("", list));
-//     }
-// }
 
-// public class Main {
-//     public static void main(String[] args) {
-//         final int i1 = 1;
-//         final Integer i2 = 1;
-//         final String s1 = ":ONE";
-        
-//         String str1 = i1 + s1;
-//         String str2 = i2 + s1;
-        
-//         System.out.println(str1 == "1:ONE");
-//         System.out.println(str2 == "1:ONE");
 //     }
 // }
 
