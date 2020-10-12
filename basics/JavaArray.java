@@ -1,5 +1,6 @@
 package basics;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -106,5 +107,71 @@ public class JavaArray {
         subList.set(0, "E"); //Line n2
         System.out.println(String.join("", list));
 
+        // 9.
+        // A null array reference is considered lexicographically
+        // less than a non-null array reference.
+        System.out.println( java.util.Arrays.compare(new int [] {10}, null) ); // 1
+    
+
+        // 10.
+        // Compare and Mismatch
+        // Two null array references are considered equal.
+        int[] a1 = null;
+        int[] a2 = null;
+        System.out.println( java.util.Arrays.compare(a1, a2) ); // 0
+        // null are not an array
+        // ( The method compare(boolean[], boolean[]) is ambiguous for the type Arrays )
+        // System.out.println( java.util.Arrays.compare(null, null) );
+
+        // But we can compare with an array
+        System.out.println( java.util.Arrays.compare(null, a1) ); // 0
+
+        int[] a3 = {1};
+        System.out.println( java.util.Arrays.compare(null, a3) ); // -1
+        System.out.println( java.util.Arrays.compare(a3, a3) ); // 0
+
+        // Compare has following algo
+        // int i = Arrays.mismatch(a, b);
+        // if (i >= 0 && i < Math.min(a.length, b.length))
+        //      return Character.compare(a[i], b[i]);
+        //  return a.length - b.length;
+        char [] arr1 = {'A', 'A'};
+        char [] arr2 = {'A', 'A', 'A', 'A'};
+        System.out.println(Arrays.compare(arr1, arr2)); // -2
+        System.out.println(Arrays.mismatch(arr1, arr2)); // 2
+
+        int [] array1 = {};
+        int [] array2 = {100, 200};
+        System.out.println(Arrays.compare(array1, array2)); // -2
+
+        // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 10
+        // char [] carr1 = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'i', 'j', 'k'};
+        // char [] carr2 = {'f', 'g', 'a', 'i', 'k'};
+        // System.out.println(Arrays.mismatch(arr1, 5, 10, arr2, 0, 5));
+
+        String [] str1 = {"A", "AA", "ABCD"};
+        String [] str2 = {"A", "AA", "ABCB"};
+        System.out.println(Arrays.mismatch(str1, str2)); // 2
+        System.out.println(Arrays.compare(str1, str2)); // 2
+        System.out.println("ABCD".compareTo("ABCB")); // 2
+        // System.out.println("ABCD".compareTo(null)); // NullPointerException
+
+        // 11.
+        // Unrelated array
+        int elements = 0;
+        Object [] objArr = {"A", "E", "I", new Object(), "O", "U"}; //Line n1
+        for(var obj : objArr) { //Line n2
+            
+            elements++; //Line n3
+            if(obj instanceof String) {
+                continue;
+            } else {
+                break;
+            }
+        }
+        System.out.println(elements); // 4
+
+        String [] sarr = new String[7];
+        System.out.println(sarr); // L....@....
     }
 }
