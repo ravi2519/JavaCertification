@@ -51,6 +51,27 @@ public class JavaFinal {
 
     public static void main(String[] args) {
         
+        // 
+        printInfo( 1 );
+        printInfo( 2 );
         
+    }
+
+    public static void printInfo( int flag) {
+        // final variable must be initialized
+        final long len;
+        if( flag == 1 ) len = 10;
+        else len = 20;
+
+        System.out.println(len);
+
+        final String str;
+
+        if( flag == 2 ) str = "none";
+        else str = "one";
+
+        System.out.println(str);
+
+
     }
 }
