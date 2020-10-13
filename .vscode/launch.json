@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaAnonymousInnerClass",
+            "request": "launch",
+            "mainClass": "advanced.innerclasses.JavaAnonymousInnerClass",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaInnerClass",
             "request": "launch",
             "mainClass": "advanced.innerclasses.JavaInnerClass",
