@@ -4,6 +4,10 @@ public class JavaInnerClass {
 
     private int outerClassVariable = 1;
 
+    public JavaInnerClass() {
+        outerClassVariable = 2;
+    }
+
     public void outerMethod(){}
     
     // 1. Inner class can be public
@@ -28,8 +32,7 @@ public class JavaInnerClass {
     class ChildClass extends AbstractInnerClass {}
     // even its own class when it is present
     class ChildInnerClass extends JavaInnerClass {}
-
-
+    
     class InnerClassFields {
         // 8. Inner class cann't have the static fields
         // public static String field1 ="Field 1";
@@ -95,6 +98,11 @@ public class JavaInnerClass {
                     System.out.println(B.this.x);
 
                     System.out.println(A.this.x);
+
+                    // can also be modified
+                    B.this.x = 20;
+                    System.out.println(B.this.x);
+
                 }
             }
         }

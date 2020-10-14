@@ -4,6 +4,9 @@ package advanced.enums;
 // implemented by all the enum members
 // If we forget to implement even for one then compile time errors.
 
+// The enums can also override/overload the methods defined in the enum class
+// They follow all the rules of overriding and overloading. 
+
 // even they can have public methods
 public enum JavaAbstractEnums {
     

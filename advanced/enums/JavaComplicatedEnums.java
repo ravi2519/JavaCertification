@@ -4,7 +4,7 @@ package advanced.enums;
 // A complicated Enum
 // only private constructors are allowed
 // private, public, protected, default variables are allowed
-// private and public methods are allowed as well 
+// private, protected package-private and public methods are allowed as well 
 enum ComplicatedSeason {
     WINTER("low", 10), SPRING("high", 20), SUMMER("high", 90), FALL("medium", 30);
 
@@ -30,6 +30,14 @@ enum ComplicatedSeason {
         System.out.println(expectedRain);
     }
 
+    protected void printProtectedRain() {
+        System.out.println("Protected");
+    }
+
+    void defaultRain(){
+        System.out.println("Default");
+    }
+
     
 }
 
@@ -52,6 +60,9 @@ public class JavaComplicatedEnums {
          ComplicatedSeason.FALL.dayLength = 6.0;
          ComplicatedSeason.FALL.humidity = 20;
          System.out.println(ComplicatedSeason.FALL); // FALL
+
+         // since constructor is private, we won't be able to use new
+        //  ComplicatedSeason s = new ComplicatedSeason();
  
     }
     

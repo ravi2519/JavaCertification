@@ -1,6 +1,8 @@
 package advanced.innerclasses;
 
 public class JavaStaticInnerClass {
+
+    private int innerClassVariable = 2;
     
     // 1. Static inner class can be private
     private static class PrivateStaticInnerClass {}
@@ -14,6 +16,10 @@ public class JavaStaticInnerClass {
     // 4. Static inner class can be a package private /default as well
     static class DefaultStaticInnerClass {
         private int var = 10;
+
+        public void meth() {
+            System.out.println(innerClassVariable);
+        }
     }
 
     public static void main(String[] args) {
