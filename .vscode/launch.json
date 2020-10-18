@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaSorting",
+            "request": "launch",
+            "mainClass": "JavaSorting",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaMap",
             "request": "launch",
             "mainClass": "JavaMap",
