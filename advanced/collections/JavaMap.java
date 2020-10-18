@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.function.BiFunction;
 
 public class JavaMap {
     
@@ -72,6 +73,51 @@ public class JavaMap {
         System.out.println( map.putIfAbsent("cow", "grass") ); // null
         System.out.println( map.putIfAbsent("cow", "meth") ); // grass
         System.out.println(map.get("cow")); // grass
+
+        // 8.
+        // merge
+        // This method is a step ahead of putIfAbsent where instead of 
+        // deciding to replace or not replace values with similar key,
+        // it provide an option for a BiFunction which can decide which
+        // value to put in. If the key doesn't exist then it adds that key to
+        // the map.
+        // map.merge( key, newvalue, mapper
+        BiFunction<String, String, String> mapper = 
+            (v1, v2) -> v1.length() > v2.length() ? v1 : v2;
+        
+        Map<String, String> favs = new HashMap<>();
+        favs.put("Jenny", "Bus Tour");
+        favs.put("Tom", "Tram");
+        favs.put("Ron", null);
+        favs.put(null, "Walk");
+
+        String jenny = favs.merge("Jenny", "Skyride", mapper);
+        String tom = favs.merge("Tom", "Skyride", mapper);
+        String unknowm = favs.merge("Unknown", "what", mapper);
+        String ron = favs.merge("Ron", "Cycle", mapper); // BiFunction is not called at all 
+        String nul = favs.merge(null, "Run", mapper);
+
+        System.out.println(favs); // {Ron=Cycle, null=Walk, Tom=Skyride, Unknown=what, Jenny=Bus Tour}
+        System.out.println(jenny); // Bus Tour
+        System.out.println(tom); // Skyride
+        System.out.println(unknowm); // what
+        System.out.println(ron); // Cycle
+        System.out.println(nul); // Walk
+
+        // if mapper function returns null then the key gets removed
+        BiFunction<String, String, String> newMapper =
+            (v1, v2) -> null;
+
+        favs.put("Key", null);
+        jenny = favs.merge("Jenny", "Skyride", newMapper);
+        tom = favs.merge("Tom", "Skyride", newMapper);
+        String key = favs.merge("Key", "Skyride", newMapper);
+        
+        System.out.println(jenny); // null
+        System.out.println(tom); // null
+        System.out.println(key); // skyride
+
+        System.out.println(favs); // {Ron=Cycle, null=Walk, Unknown=what}
 
     }
 
