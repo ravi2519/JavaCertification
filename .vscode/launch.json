@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaMap",
+            "request": "launch",
+            "mainClass": "JavaMap",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaQueue",
+            "request": "launch",
+            "mainClass": "JavaQueue",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaQueue",
+            "request": "launch",
+            "mainClass": "advanced.collections.JavaQueue",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaCollections",
             "request": "launch",
             "mainClass": "advanced.collections.JavaCollections",

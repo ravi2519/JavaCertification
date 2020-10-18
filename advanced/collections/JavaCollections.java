@@ -1,4 +1,3 @@
-package advanced.collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
