@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaCollections",
+            "request": "launch",
+            "mainClass": "advanced.collections.JavaCollections",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaGenerics",
+            "request": "launch",
+            "mainClass": "advanced.generics.JavaGenerics",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaAnonymousInnerClass",
             "request": "launch",
             "mainClass": "advanced.innerclasses.JavaAnonymousInnerClass",

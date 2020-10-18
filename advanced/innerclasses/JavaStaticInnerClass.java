@@ -18,7 +18,9 @@ public class JavaStaticInnerClass {
         private int var = 10;
 
         public void meth() {
-            System.out.println(innerClassVariable);
+            // COMPILE TIME ERROR
+            // Can't use the non-static in normal context
+            // System.out.println(innerClassVariable);
         }
     }
 
