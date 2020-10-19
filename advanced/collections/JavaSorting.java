@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.PrimitiveIterator.OfDouble;
 
 // Comparable
@@ -102,7 +104,22 @@ public class JavaSorting {
         //   applicable for the arguments (ArrayList<Dog>) )
         // UNCOMMENT BELOW
         // Collections.sort(dogs);
-                      
+
+        // 7.
+        // TreeSet needs the items to be sortable.
+        // Java doens't know this during runtime. But
+        // when adding elements, it try to sort them 
+        // and then there itself it finds that Dog is not
+        // comparable. It throws an exception:
+        // Exception in thread "main" java.lang.ClassCastException:
+        // class Dog cannot be cast to class java.lang.Comparable
+        Set<Dog> dogSet = new TreeSet<>();
+        dogSet.add(new Dog("Buck"));
+           
+        // This can be corrected by passing a comparator as below
+        Set<Dog> goodDogSet = new TreeSet<>( 
+            (d1, d2) -> d1.getName().compareTo( d2.getName() ) );
+        goodDogSet.add(( new Dog("Dogo")));
     }
 
 }
