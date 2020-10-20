@@ -39,12 +39,7 @@ public class JavaGenerics {
     static <T> T two(T t) { return t; }
     // static T three(T t) { return t;} // (T cannot be resolved to a type)
     
-    // 4.
-    // When you have a method declare a generic parameter type, it is
-    // independent of the class generics
-    class Crate<T> {
-        public <T> T ricky( T t ) { return t; }
-    }
+    
 
     static void printNames(List list) {
         for ( int i = 0; i< list.size(); i++ ) {
@@ -87,7 +82,35 @@ public class JavaGenerics {
 
 
         // 8.
+        // Wildcard are not allowed on right side of the statement
+        // COMPILER ERROR
+        // (Type mismatch: cannot convert from ArrayList<? extends Object> to List<Object> )
+        // List<Object> objects1 = new ArrayList<? extends Object>();
 
+        // COMPILER ERROR
+        // (Cannot instantiate the type ArrayList<? super Object>)
+        // List<Object> objects2 = new ArrayList<? super Object>();
+
+        // COMPILER ERROR
+        // (Cannot instantiate the type ArrayList<? extends Object>)
+        // List<? extends Object> objects3 = new ArrayList<? extends Object>();
+
+        List<? extends Object> objects4 = new ArrayList<Number>();
+
+        List<? extends Object> objects5 = new ArrayList<Object>();
+
+        // COMPILER ERROR
+        // (Type mismatch: cannot convert from ArrayList<Number> to List<? super Object>)
+        // List<? super Object> objects6 = new ArrayList<Number>();
+
+        List<? super Object> objects7 = new ArrayList<Object>();
+
+        List<? super Object> objects8 = new ArrayList<Object>();
+
+        List<?> q = List.of("mouse", "parrot");
+
+        var v = List.of("mouse", "parrot");
+        
     }
 
     static void printList(List<Object> lst) {
@@ -102,4 +125,17 @@ public class JavaGenerics {
         }
     }
         
+}
+
+
+// 4.
+// When you have a method declare a generic parameter type, it is
+// independent of the class generics
+class Crate<T> {
+    public <T> T ricky( T t ) { return t; }
+    // public static T micky( T t ) { return t; } //Cannot make a static reference to the non-static type T
+    public static <T> T micky( T t ) { return t; }
+    public <T> void ticky( ) { }
+    // public <T> T sicky( ) { return new T(); } // Cannot instantiate the type T
+    // public <T> kicky( T t ) { return t; } // Return type for the method is missing
 }
