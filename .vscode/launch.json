@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaOptional",
+            "request": "launch",
+            "mainClass": "JavaOptional",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaFI",
             "request": "launch",
             "mainClass": "JavaFI",
