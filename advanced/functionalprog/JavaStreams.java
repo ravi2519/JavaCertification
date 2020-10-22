@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeSet;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -37,5 +39,33 @@ public class JavaStreams {
         strm = Stream.of("lion", "tiger", "zebra");
         Double avg = strm.collect(Collectors.averagingDouble(String::length));
         System.out.println(avg);
+
+        // 5. 
+        // Stream to TreeSet
+        strm = Stream.of("lion", "tiger", "zebra", "timberfox");
+        TreeSet<String> set = strm
+                                .filter( s -> s.startsWith("t"))
+                                .collect(Collectors.toCollection(TreeSet::new));
+        System.out.println(set);
+
+        // 6.
+        // Stream to Map 1
+        Stream<String> mapStrm1 = Stream.of("lion", "tiger", "zebra", "timberfox");
+        Map<String, Integer> map1 = mapStrm1
+                                        .collect(Collectors.toMap(s -> s, String::length));
+        System.out.println(map1);
+
+        // 7.
+        // STream to Map 2
+        // Avoiding key collisions
+        Stream<String> mapStrm2 = Stream.of("lion", "tiger", "zebra", "timberfox");
+        Map<Integer, String> map2 = mapStrm2
+                                        .collect(
+                                            Collectors.toMap(
+                                                String::length,
+                                                s -> s, 
+                                                (s1, s2) -> s1 + "-" + s2));
+        System.out.println(map2);
+
     }
 }
