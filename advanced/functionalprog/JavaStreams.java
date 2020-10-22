@@ -1,5 +1,8 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -66,6 +69,83 @@ public class JavaStreams {
                                                 s -> s, 
                                                 (s1, s2) -> s1 + "-" + s2));
         System.out.println(map2);
+
+        // 8.
+        // Stream to Map 3
+        // Return a TreeMap instead
+        Stream<String> mapStrm3 = Stream.of("lion", "tiger", "zebra", "timberfox");
+        TreeMap<Integer, String> map3 = mapStrm3
+                                        .collect(
+                                            Collectors.toMap(
+                                                String::length,
+                                                s -> s, 
+                                                (s1, s2) -> s1 + "-" + s2,
+                                                TreeMap::new));
+        System.out.println(map3);
+
+        // 9.
+        // Stream to Map 4
+        // groupingBy
+        Stream<String> mapStrm4 = Stream.of("lion", "tiger", "zebra", "timberfox");
+        Map<Integer, List<String>> map4 = 
+            mapStrm4.collect(
+                Collectors.groupingBy(String::length)
+            );
+        System.out.println( map4 );
+
+        // 10.
+        // Stream to Map 5
+        // groupingBy must return a non null value
+        // Stream<String> mapStrm5 = Stream.of(null, "tiger", null, "timberfox");
+        // Map<Integer, List<String>> map5 = 
+        //     mapStrm5.collect(
+        //         Collectors.groupingBy(String::length) // NullPointerException
+        //     );
+        // System.out.println( map5 );
+        
+        // 11.
+        // Stream to Map 6
+        // groupingBy
+        // Values List to set
+        Stream<String> mapStrm6 = Stream.of("lion", "tiger", "zebra", "tiger", "timberfox");
+        Map<Integer, Set<String>> map6 = 
+            mapStrm6.collect(
+                Collectors.groupingBy(String::length, Collectors.toSet())
+            );
+        System.out.println( map6 );
+
+        // 12.
+        // Stream to Map 7
+        // groupingBy
+        // Return type from Map to TreeMap
+        Stream<String> mapStrm7 = Stream.of("lion", "tiger", "zebra", "tiger", "timberfox");
+        TreeMap<Integer, Set<String>> map7 = 
+            mapStrm7.collect(
+                Collectors.groupingBy(String::length, TreeMap::new, Collectors.toSet())
+            );
+        System.out.println( map7 );
+
+        // 13.
+        // Stream to Map 8
+        // partitioningBy
+        // Partition the list
+        Stream<String> mapStrm8 = Stream.of("lion", "tiger", "zebra", "tiger", "timberfox");
+        Map<Boolean, List<String>> map8 = 
+            mapStrm8.collect(
+                Collectors.partitioningBy(s -> s.length() == 5 )
+            );
+        System.out.println( map8 );
+
+        // 14.
+        // Stream to Map 9
+        // partitioningBy
+        // Partition value type from list to set
+        Stream<String> mapStrm9 = Stream.of("lion", "tiger", "zebra", "tiger", "timberfox");
+        Map<Boolean, Set<String>> map9 = 
+            mapStrm9.collect(
+                Collectors.partitioningBy(s -> s.length() == 5, Collectors.toSet() )
+            );
+        System.out.println( map9 );
 
     }
 }
