@@ -65,9 +65,10 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
 - [OCA and OCP/808 and 809](https://github.com/egenerat/java-8-certification)
 - [All about modules - some handy modules command-lines](https://github.com/boyarsky/sybex-1Z0-815-chapter-11)
 
-# OCP 819 Reviews
+# OCP 819 Stories
 - [Enthuware](https://enthuware.com/oca-ocp-java-certification-resources/255-java-certification-819-experience)
 - [Jeanne Boysky](https://www.selikoff.net/2020/09/26/jeannes-experience-taking-the-1z0-819-in-the-time-of-covid-19/)
+- [Scot Selikoff](https://www.selikoff.net/2020/10/06/taking-the-1z0-819-exam-study-everything-and-watch-the-clock-part-2-of-2/)
 
 # Coderanch
 - [OCJCP Page](https://coderanch.com/f/24/java-programmer-OCPJP)
