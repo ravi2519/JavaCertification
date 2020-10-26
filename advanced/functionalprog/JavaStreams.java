@@ -1,9 +1,12 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.util.Map.Entry;
+import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -146,6 +149,20 @@ public class JavaStreams {
                 Collectors.partitioningBy(s -> s.length() == 5, Collectors.toSet() )
             );
         System.out.println( map9 );
+
+        Predicate<String> empty = String::isEmpty;
+        Predicate<String> notEmpty = empty.negate();
+            
+        var result = Stream.generate(() -> "")
+           .limit(10)
+           .filter(notEmpty)
+           .collect(Collectors.groupingBy(k -> k))
+           .entrySet()
+           .stream()
+           .map(Entry::getValue)
+           .flatMap(Collection::stream)
+           .collect(Collectors.partitioningBy(notEmpty));
+        System.out.println(result);
 
     }
 }

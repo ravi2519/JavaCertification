@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ScheduleWithFixedDelay",
+            "request": "launch",
+            "mainClass": "ScheduleWithFixedDelay",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScheduleAtFixedRate",
+            "request": "launch",
+            "mainClass": "ScheduleAtFixedRate",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingleThreadScheduledExecutor",
+            "request": "launch",
+            "mainClass": "SingleThreadScheduledExecutor",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvokeAny",
+            "request": "launch",
+            "mainClass": "InvokeAny",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvokeAll",
+            "request": "launch",
+            "mainClass": "InvokeAll",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CallableSingleThread",
+            "request": "launch",
+            "mainClass": "CallableSingleThread",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PollingUsingFuture",
+            "request": "launch",
+            "mainClass": "PollingUsingFuture",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingleThreadExecutor",
+            "request": "launch",
+            "mainClass": "SingleThreadExecutor",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaStreams",
             "request": "launch",
             "mainClass": "JavaStreams",
