@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ConcurrentCollectionClasses",
+            "request": "launch",
+            "mainClass": "collections.ConcurrentCollectionClasses",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ScheduleWithFixedDelay",
             "request": "launch",
             "mainClass": "ScheduleWithFixedDelay",
