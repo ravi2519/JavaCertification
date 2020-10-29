@@ -40,6 +40,7 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
   
 ## Secure Coding in Java SE Application
 - [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
+- ![alt text](https://www.explainxkcd.com/wiki/index.php/File:exploits_of_a_mom.png)
 
 
 # Mock Tests
