@@ -1,5 +1,4 @@
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -89,6 +88,7 @@ public class JavaArray {
         // binarySearch
         List<String> hex = Arrays.asList("30", "8", "3A", "FF");
         Collections.sort(hex);
+        System.out.println(hex);
         int x = Collections.binarySearch(hex, "8");
         int y = Collections.binarySearch(hex, "3A");
         int z = Collections.binarySearch(hex, "4F");
@@ -172,5 +172,8 @@ public class JavaArray {
 
         String [] sarr = new String[7];
         System.out.println(sarr); // L....@....
+
+        String[] s4 = { "Camel", null};
+        System.out.println( Arrays.compare(s4, s4));
     }
 }

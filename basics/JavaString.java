@@ -47,5 +47,9 @@ public class JavaString {
         System.out.println(str1 == "1:ONE"); // true
         System.out.println(str2 == "1:ONE"); // false
 
+        String numbers = "012345678";
+        System.out.println(numbers.substring(1, 3));
+        System.out.println(numbers.substring(7, 7));
+        System.out.println(numbers.substring(7));
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JavaArray",
+            "request": "launch",
+            "mainClass": "JavaArray",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaString",
             "request": "launch",
             "mainClass": "JavaString",
