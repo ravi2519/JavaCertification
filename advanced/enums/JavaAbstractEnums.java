@@ -1,4 +1,3 @@
-package advanced.enums;
 
 // Enums can also have abstract methods and that need to be 
 // implemented by all the enum members

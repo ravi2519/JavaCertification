@@ -1,5 +1,3 @@
-package advanced.enums;
-
 // Can have a main method as well
 // and it will work as well
 public enum JavaEnumWithMain {

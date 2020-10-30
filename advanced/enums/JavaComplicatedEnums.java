@@ -1,6 +1,3 @@
-package advanced.enums;
-
-
 // A complicated Enum
 // only private constructors are allowed
 // private, public, protected, default variables are allowed

@@ -75,3 +75,20 @@ public class JavaInterfaces {
 
 // END OF 2
 
+interface Foo {
+    default void m1() {
+        m3(); // Line 1
+        m4(); // Line 2
+    }
+
+    static void m2() {
+        // m3(); // Line 3 Cannot make a static reference to the non-static method m3() from the type Foo
+        m4(); // Line 4
+    }
+
+    private void m3() {
+    }
+
+    private static void m4() {
+    }
+}

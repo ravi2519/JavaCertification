@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -164,5 +165,53 @@ public class JavaStreams {
            .collect(Collectors.partitioningBy(notEmpty));
         System.out.println(result);
 
+
+        // 15.
+        // Stream<Integer> stream = Stream.of(1, 2);
+        // Cannot invoke filter((<no type> i) -> {}) on the primitive type boolean
+        // Optional<Integer> optional = stream
+        //     .anyMatch(i -> i % 2 == 0)
+        //     .filter(i -> i % 2 == 1)
+        //     .findAny();
+        // System.out.println(optional.get());
+
+        // 16.
+        // There is a filter(Predicate) in Optional class as well
+        // 
+        try{
+            Stream<Integer> stream = Stream.of(1, 3);
+            Optional<Integer> optional = stream.findAny().filter(i -> i % 2 == 0);
+            System.out.println(optional.get());
+        } catch ( Exception e) {
+            e.printStackTrace();
+        }
+
+        // 17.
+        // ifPresentOrElse
+        // Lambda expression's signature does not match the signature of the functional interface method run()
+        // Stream
+        //     .of(0)
+        //     .findAny()
+        //     .or(() -> Optional.of(1))
+        //     .ifPresentOrElse(System.out::println,
+        //         i -> System.out.println(i));
+
+        // 18. 
+        // reduce accepts the identity of type same as passed to BinaryOperator
+        Daata data1 = new Daata(1);
+        Daata data2 = new Daata(2);
+        // Type mismatch: cannot convert from int to Data
+        // Daata java.util.stream.Stream.reduce(Daata identity, BinaryOperator<Daata> accumulator)
+        // Object res = Stream.of(data1, data2).reduce(1, (d1, d2) -> d1.number + d2.number);
+        // System.out.println(res);
+    }
+}
+
+
+class Daata {
+    int number;
+
+    Daata(int number) {
+        this.number = number;
     }
 }

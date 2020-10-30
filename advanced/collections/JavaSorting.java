@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.PrimitiveIterator.OfDouble;
@@ -113,17 +114,31 @@ public class JavaSorting {
         // comparable. It throws an exception:
         // Exception in thread "main" java.lang.ClassCastException:
         // class Dog cannot be cast to class java.lang.Comparable
-        Set<Dog> dogSet = new TreeSet<>();
-        dogSet.add(new Dog("Buck"));
+        try{
+            Set<Dog> dogSet = new TreeSet<>();
+            dogSet.add(new Dog("Buck"));
+        } catch ( Exception e ) {
+            e.printStackTrace();
+        }
            
         // This can be corrected by passing a comparator as below
         Set<Dog> goodDogSet = new TreeSet<>( 
             (d1, d2) -> d1.getName().compareTo( d2.getName() ) );
         goodDogSet.add(( new Dog("Dogo")));
+    
+        // 8.
+        // When adding data, the Comparator will be called fo treeset
+        // When getting higher as well the Comparator will be called.
+        Data d1 = new Data(2);
+        Data d2 = new Data(3);
+        Data d3 = new Data(1);
+        TreeSet<Data> set = new TreeSet<>(d3);
+        set.addAll(List.of(d1, d2, d3));
+        System.out.println(set);
+        System.out.println(set.higher(d1).number);
     }
 
 }
-
 
 // Genrics is important here. If we don't set it
 // here then Java assume that we want to use Object
@@ -133,7 +148,7 @@ class Duck implements Comparable<Duck> {
     private int weight;
     private int age;
 
-    public Duck (String name, int weight, int age) {
+    public Duck(String name, int weight, int age) {
         this.name = name;
         this.weight = weight;
         this.age = age;
@@ -156,7 +171,6 @@ class Duck implements Comparable<Duck> {
     }
 }
 
-
 class Dog {
     private String name;
 
@@ -166,5 +180,21 @@ class Dog {
 
     public String getName() {
         return name;
+    }
+}
+
+class Data implements Comparable<Data>, Comparator<Data> {
+    int number;
+
+    Data(int number) {
+        this.number = number;
+    }
+
+    public int compareTo(Data d) {
+        return number - d.number;
+    }
+
+    public int compare(Data d1, Data d2) {
+        return d2.number - d1.number;
     }
 }
