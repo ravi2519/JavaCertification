@@ -39,8 +39,8 @@ Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
   This is important because many times we are asked to identify a Function Interface and an inteface with no abstract method and a Object class method is not a function interface.
   
 ## Secure Coding in Java SE Application
+![alt text](./resources/exploits_of_a_mom.png)
 - [Oracle Secure Coding Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html#9)
-- ![alt text](https://www.explainxkcd.com/wiki/index.php/File:exploits_of_a_mom.png)
 
 
 # Mock Tests
