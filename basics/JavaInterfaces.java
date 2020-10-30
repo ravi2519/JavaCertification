@@ -1,6 +1,3 @@
-package basics;
-
-
 
 // 1.
 // Return type of fly() in CanFly and HasWings

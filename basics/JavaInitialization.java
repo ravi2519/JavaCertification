@@ -1,4 +1,3 @@
-package basics;
 
 /**
  * This is an important example showcasing all the possible 

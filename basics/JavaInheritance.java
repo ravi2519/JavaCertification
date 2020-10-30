@@ -1,4 +1,3 @@
-package basics;
 
 // 1.
 // A doesn't have a no argument constructor.

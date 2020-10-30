@@ -1,4 +1,3 @@
-package basics;
 
 public class JavaString {
     
@@ -45,8 +44,8 @@ public class JavaString {
         String str1 = i1 + st1;
         String str2 = i2 + st1;
         
-        System.out.println(str1 == "1:ONE");
-        System.out.println(str2 == "1:ONE");
+        System.out.println(str1 == "1:ONE"); // true
+        System.out.println(str2 == "1:ONE"); // false
 
     }
 }
