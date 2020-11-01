@@ -1,4 +1,3 @@
-package advanced.annotations;
 
 // 1. Annotations are marked with @interface
 public @interface JavaAnnotation {

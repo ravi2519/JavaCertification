@@ -1,4 +1,3 @@
-package advanced.annotations;
 
 class Bear {}
 

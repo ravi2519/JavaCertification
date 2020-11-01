@@ -1,6 +1,9 @@
-package advanced.annotations;
 
 public class JavaDifferentAnnotations {
+
+    public static void main(String[] args) {
+        System.out.println("Main");
+    }
     
 }
 
@@ -18,7 +21,7 @@ class Snake {
     @Depricated public Snake() {}
 }
 
-// 4. Annotations can be used on arguments
+// 4. Annotations can be used on arguments/parameters
 class Moon {
     public Moon(@NotNull String planet) {}
 }
@@ -53,13 +56,14 @@ class Plants {
 
 // 9. Annotations can also have a value. i.e. written without 
 // an elemment name. For this the
-// - annotation declaration must have a field with name "type" which 
+// - annotation declaration must have a field with name "value" which 
 //          can be either default or required
 // - annotation declaration must not contain anyother elements that
 //          are required
 // - annotation usage must not provide values for other elemnets
 @interface TransactionType {
-    String value() default "Unknown";
+    String value();
+    int nr() default 20;
 }
 
 @TransactionType("Debit")
@@ -68,8 +72,12 @@ class DebitTransactions{}
 @TransactionType(value="Credit")
 class CreditTransactions{}
 
-@TransactionType
+@TransactionType("Scam")
 class UnknownTransactions{}
+
+// DOES NOT COMPILE
+// @TransactionType("Card", nr=10)
+// class CardTransactions{}
 
 // end of 9
 
