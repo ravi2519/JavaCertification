@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Needles",
+            "request": "launch",
+            "mainClass": "Needles",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaInitialization",
+            "request": "launch",
+            "mainClass": "JavaInitialization",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaArray",
             "request": "launch",
             "mainClass": "JavaArray",
