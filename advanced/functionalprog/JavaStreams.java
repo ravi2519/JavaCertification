@@ -32,7 +32,7 @@ public class JavaStreams {
             .findAny()
             .map(n -> "" + n)
             .filter(n -> n.length() == 3 )
-            .ifPresent(System.out::println);
+            .ifPresent(System.out::println); // 100
 
         // 3. 
         // Collectors.joining

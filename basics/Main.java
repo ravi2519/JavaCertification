@@ -8,6 +8,16 @@ public class Main {
         list.add(0, "MOVE");
         list.add(2, "ON");
         System.out.println( list );
+
+        // i is not out of maximum int range yet
+        int i = 1234567890;
+        float f = i;
+        System.out.println(i - (int) f);
+
+        // Its perfectly ok to have a variable name after the name of a class
+        String String = "is this valid?";
+        int Exception = 0;
+        long Error = 20; 
         
         // System.out.println(list);
     }

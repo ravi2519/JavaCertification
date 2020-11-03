@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReentrantLockExample",
+            "request": "launch",
+            "mainClass": "ReentrantLockExample",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JavaAnonymousInnerClass",
+            "request": "launch",
+            "mainClass": "JavaAnonymousInnerClass",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JavaDifferentAnnotations",
             "request": "launch",
             "mainClass": "JavaDifferentAnnotations",
