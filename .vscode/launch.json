@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Holder",
+            "request": "launch",
+            "mainClass": "Holder",
+            "projectName": "JavaCertification_5488e0b9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReentrantLockExample",
             "request": "launch",
             "mainClass": "ReentrantLockExample",
