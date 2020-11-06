@@ -20,7 +20,7 @@ I did that too, but as soon as i was prepared to give 815, THE Oracle changed th
 ## New girl in town!!
 
 Yes that's true! I broke up with both 815 and 816 after seeing how cool is 819.
-[The new 819 exam](https://www.explainxkcd.com/wiki/images/5/5f/exploits_of_a_mom.png)
+[The new 819 exam](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
 
 ## Few features of this new exam
 - This is a 90 min exam as compared to 180 min ( for 815 and 816 each ).
