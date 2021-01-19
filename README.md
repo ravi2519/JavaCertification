@@ -19,8 +19,7 @@ I did that too, but as soon as i was prepared to give 815, THE Oracle changed th
 
 ## Oracle did it again!!
 
-You know Oracle! Yeah, it did some wiered stuff again.
-Java certification test 815 and 816 were iscontinued and Java Test 819 was introduced.
+And as if 2020 was less weired, Oracle discontinued Java certification test 815 and 816. And in place of it Java Test 819 was introduced.
 [The new 819 exam](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
 
 ## Few features of this new exam
