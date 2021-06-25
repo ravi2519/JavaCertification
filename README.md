@@ -1,34 +1,31 @@
 # Java 11 Certification
 
-Hi there! So this is a full resource guide for my attempt to get Java 11 Certified.
-On 18th Jan 2021 i passed my "Oracle Certified Professional: Java SE 11 Developer" certification.
+Hi there! So this is a complete resource guide for my attempt to get Java 11 Certified. 
+On the 18th, January 2021, I passed my "Oracle Certified Professional: Java SE 11 Developer" certification.
 
 # Old Rules
 
-So i started my journey to get certified in Java 11 to receive **Oracle Certified Professional Java SE 11 Developer** credentials.
-Before October 1, 2020 it was fairly a two step process:
+So I started my journey to get certified in Java 11 to receive Oracle Certified Professional Java SE 11 Developer credentials. Before 1st, October 2020, it was fairly a two-step process:
+ - [Take a 815 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-815) Post 1st, October 2020, it is displaying a 404.
+ - [And a 816 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-816) Post 1st, October 2020, it is displaying a 404.
 
- - [Take a 815 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-815) Post Oct 1, 2020 it's showing a 404
- - [And a 816 exam](https://education.oracle.com/java-se-11-programmer-i/pexam_1Z0-816) Post Oct 1, 2020 it's showing a 404
+Both costs approximately 11,300 INR each and covers a different set of the syllabus.
 
-Both costs approximately **11,300 INR** each and covers different set of syllabus.
+You have to purchase the exam voucher from Oracle for each one of these. The voucher will be valid for the next 6 months. And during this period, you can schedule the exam anytime.
 
-You have to purchase the exam voucher from Oracle for each one of these. The voucher will be valid for next 6 months. And during this period you can schedule the exam anytime.
-
-I did that too, but as soon as i was prepared to give 815, THE Oracle changed the game. They were retiring both 815 and 816 in favor of 819.
+I did that too, but as soon as I was prepared for 815, THE Oracle changed the game. They were retiring both 815 and 816 in favor of 819.
 
 ## Oracle did it again!!
 
-And as if 2020 was less weired, Oracle discontinued Java certification test 815 and 816. And in place of it Java Test 819 was introduced.
+And as if 2020 was less weird, Oracle discontinued Java certification test 815 and 816. And in place of it, Java Test 819 was introduced.
 [The new 819 exam](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
 
 ## Few features of this new exam
-- This is a 90 min exam as compared to 180 min ( for 815 and 816 each ).
-- Total number of questions are reduced to 50 and you need to mark 34 questions correctly to pass.
+- It is a 90 min exam as compared to 180 min ( for 815 and 816 each ).
+- The total number of questions is reduced to 50, and you need to mark 34 questions correctly to pass.
 - It costs approximately **18,538 INR** plus taxes.
-- Covers almost all the topics form 815 and 816 with few exceptions. Checkout [819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819) link for detailed syllabus.
+- Covers almost all the topics from exam 815 and 816, with few exceptions. Check out the [819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819) links for a detailed syllabus.
 - You will receive "Oracle Certified Professional: Java SE 11 Developer" as Oracle recognition.
-
 
 
 # Important Topics
