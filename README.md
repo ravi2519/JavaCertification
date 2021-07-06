@@ -1,3 +1,6 @@
+[![GitHub forks](https://img.shields.io/github/forks/ravi2519/JavaCertification.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/ravi2519/JavaCertification)
+
+
 # Java 11 Certification
 
 Hi there! So this is a complete resource guide for my attempt to get Java 11 Certified. 
