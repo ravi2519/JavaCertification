@@ -1,4 +1,6 @@
-[![GitHub forks](https://img.shields.io/github/forks/ravi2519/JavaCertification.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/ravi2519/JavaCertification)
+[![GitHub stars](https://img.shields.io/github/stars/ravi2519/JavaCertification.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ravi2519/JavaCertification/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/ravi2519/JavaCertification.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/ravi2519/JavaCertification/network/)
+
 
 
 # Java 11 Certification
