@@ -1,5 +1,5 @@
-[![GitHub stars](https://img.shields.io/github/stars/ravi2519/JavaCertification.svg?style=social&label=Star&maxAge=2592000)]
-[![GitHub forks](https://img.shields.io/github/forks/ravi2519/JavaCertification.svg?style=social&label=Fork&maxAge=2592000)]
+![GitHub stars](https://img.shields.io/github/stars/ravi2519/JavaCertification.svg?style=social&label=Star&maxAge=2592000)
+![GitHub forks](https://img.shields.io/github/forks/ravi2519/JavaCertification.svg?style=social&label=Fork&maxAge=2592000)
 
 
 
